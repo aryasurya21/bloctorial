@@ -38,12 +38,3 @@ class HomeSuccessFetchDataState extends HomeState {
   @override
   List<Object?> get props => [];
 }
-
-abstract class HomeEvent extends Equatable {
-  const HomeEvent();
-}
-
-class FetchDataEvent extends HomeEvent {
-  @override
-  List<Object?> get props => [];
-}

@@ -2,7 +2,8 @@ import 'dart:math';
 
 import 'package:bloctorial/food.dart';
 import 'package:bloctorial/food_generator.dart';
-import 'package:bloctorial/home_state_event.dart';
+import 'package:bloctorial/home_event.dart';
+import 'package:bloctorial/home_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {

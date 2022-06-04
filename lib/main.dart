@@ -1,6 +1,7 @@
 import 'package:bloctorial/food.dart';
 import 'package:bloctorial/home_bloc.dart';
-import 'package:bloctorial/home_state_event.dart';
+import 'package:bloctorial/home_event.dart';
+import 'package:bloctorial/home_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
